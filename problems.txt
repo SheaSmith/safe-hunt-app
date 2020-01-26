@@ -1,0 +1,24 @@
+PROBLEMS ENCOUNTERED BEFORE I FORGET:
+- Map Issues. Lack of polygon + iOS support in Mapbox, switch to another
+	-> Lack of offline support in new one + slow raster tiles + doesn't handle zooming in very well
+	-> Switch back to mapbox - implemented polygon support myself, along with some experimental code online
+
+Cache didn't work well
+	-> Built own cache to own spec rather relying on 3rd party libraries that aren't well supported
+
+Built 'own' map base for offline support due to large size of proper LINZ maps
+
+Issues with LINZ map - experimenting with different systems
+
+Database storage - How do we store polygons?
+
+Background image with keyboard moving
+	-> Special decoration layer
+
+Platform Based UI
+
+Imported hunting blocks - wrong coordinates system
+
+GeoJSON too long, polyline implementation
+
+Low quality thumbs

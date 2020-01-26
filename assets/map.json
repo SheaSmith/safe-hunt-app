@@ -100,6 +100,14 @@
       ],
       "tilesSize": 256,
       "attribution": "Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0 licence."
+    },
+    "linz_detail": {
+      "type": "raster",
+      "tiles": [
+        "https://tiles-a.data-cdn.linz.govt.nz/services;key=fb958f8352e24452b8ffcceab065042f/tiles/v4/layer=50767,style=auto/{z}/{x}/{y}.png"
+      ],
+      "tilesSize": 256,
+      "attribution": "Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0 licence."
     }
   },
   "sprite": "mapbox://sprites/andrewdc/cj3xo7uut1ris2rnqo9iygik4",
@@ -13476,6 +13484,13 @@
       "id": "linzlayer",
       "source": "linz",
       "type": "raster"
+    },
+    {
+      "id": "linzlayerdetail",
+      "source": "linz_detail",
+      "type": "raster",
+      "minzoom": 11,
+      "maxzoom": 24
     }
   ],
   "created": "2017-06-15T00:12:06.643Z",
